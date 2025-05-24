@@ -21,7 +21,7 @@ interface RegistrationDetails { // A general Admin, on branch main
 User shape
 ```typescript
 interface User { 
-  id?: string;
+  id: string;
   firstName: string;
   lastName: string;
   userType: string;
