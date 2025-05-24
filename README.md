@@ -184,7 +184,7 @@ POST trip shape
 ```
 Full Trip Shape and query, on GET an array of Trips is returned
 ```typescript
-export interface TripQuery {
+interface TripQuery {
   departureTime: string;
   // The start time and the end time will be sent, if the departure time is within the range or equal in case they are both the same, it will be returned.
   startTime: string;
@@ -239,7 +239,7 @@ interface Manifest { // GET /companies/{companyId}/trips/{tripId}/manifest
 ```
 ### Analytics
 ```typescript
-export interface AnalyticsQuery {
+interface AnalyticsQuery {
   branch?: string ;
   startDate: string;
   endDate: string;
@@ -310,14 +310,14 @@ interface TicketResponse { // GET tickets
   query: { tripId: string };
   tickets: Ticket[];
 }
-export interface Branch {
+interface Branch {
   name: string;
 }
 
 ```
 Selling a ticket POST ticket
 ```typescript
-export interface TicketSaleDetails {
+interface TicketSaleDetails {
  passengerName?:string;
  passengerPhone?:string;
  tripId: string;
@@ -335,7 +335,7 @@ export interface TicketSaleDetails {
 ```
 Full ticket shape
 ```typescript
-export interface Ticket {
+interface Ticket {
   ticketId: string;
   tripId: string;
   passenger: {
