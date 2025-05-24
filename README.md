@@ -46,6 +46,7 @@ interface LoggedInUser { // The JWT data
 ```
 ! By registering an admin, a company is also created.
 
+## Other services
 ### POST/companies/{companyId}/agents
 ### PUT/companies/{companyId}/agents/{agentId}
 request shape
