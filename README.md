@@ -315,7 +315,7 @@ interface Branch {
 }
 
 ```
-Selling a ticket POST ticket
+Selling a ticket (POST ticket)
 ```typescript
 interface TicketSaleDetails {
  passengerName?:string;
