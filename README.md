@@ -31,7 +31,7 @@ interface User {
 }
 ```
 
-Response JWT(same as on login): This is what the returned token field should contain. I assumed we don't have a route for fetching the user by id. If available, the id and exp would be just fine.
+Response JWT(same as on login): This is what the returned token field should contain. I assumed we don't have a route for fetching the user by id. If available, the userId field would be just fine.
 ```typescript
 interface LoggedInUser { // The JWT data
   id?: string;
