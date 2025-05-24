@@ -1,5 +1,5 @@
 # Shapes for different routes
-These are examples of what is expected as the request and what should be returned as the response. Left out details assume what is specified in "Internship Report - Week 2". This is what is needed on the <mark>Operator client</mark>.
+These are examples of what is expected as the request and what should be returned as the response. Left out details assume what is specified in "Internship Report - Week 2". This is what is needed on the <mark>**Operator client**</mark>.
 
 ## Authentication service
 This is the authentication service including user registration, login, and agent invitation
